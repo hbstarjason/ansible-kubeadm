@@ -38,19 +38,19 @@ https://vagrantcloud.com/bento/boxes/ubuntu-16.04/versions/201812.27.0/providers
 ```
 # win+R快捷键，输入cmd回车，调出命令行，切换至代码目录
 C:\Users\zhang>d:
-D:\>cd kubeadm-ansible-master
-D:\kubeadm-ansible-master>
+D:\>cd ansible-kubeadm-master
+D:\ansible-kubeadm-master>
 
 # 添加本地虚拟机模板，并启动脚本，一键自动安装kubernetes集群
-D:\kubeadm-ansible-master>vagrant box add virtualbox.box --name bento/ubuntu-16.04
-D:\kubeadm-ansible-master>vagrant up
+D:\ansible-kubeadm-master>vagrant box add virtualbox.box --name bento/ubuntu-16.04
+D:\ansible-kubeadm-master>vagrant up
 ```
 
 4、验证kubernetes集群。
 
 ```
 # 登陆进去master
-D:\kubeadm-ansible-master>vagrant ssh k8s-m1
+D:\ansible-kubeadm-master>vagrant ssh k8s-m1
 vagrant@k8s-m1:~$
 ```
 
