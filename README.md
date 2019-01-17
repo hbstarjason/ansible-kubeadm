@@ -27,7 +27,7 @@
 
 ```
 # 仓库地址
-
+https://github.com/hbstarjason/ansible-kubeadm.git
 
 # 虚拟机模板文件下载地址
 https://vagrantcloud.com/bento/boxes/ubuntu-16.04/versions/201812.27.0/providers/virtualbox.box
