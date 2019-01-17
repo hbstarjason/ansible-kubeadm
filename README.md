@@ -85,7 +85,7 @@ $ ansible-playbook reset-site.yaml
 
 ## **四、还存在一些问题：**
 
-​       主体代码来自于：https://github.com/kairen/kubeadm-ansible/，在这个基础上做了一些优化和修改，以适应在天朝局域网内能愉快的玩耍，据不完全统计，修改的文件列表如下：
+​    主体代码来自于：https://github.com/kairen/kubeadm-ansible/，在这个基础上做了一些优化和修改，以适应在天朝局域网内能愉快的玩耍，据不完全统计，修改的文件列表如下：
 
 - Vagrantfile
 - hack/setup-vms.sh
