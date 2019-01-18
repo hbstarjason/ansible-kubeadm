@@ -1,7 +1,6 @@
 #!/bin/bash
 #
 # Program: Initial vagrant.
-# History: 2017/1/16 Kyle.b Release
 
 
 function set_hosts() {
@@ -53,7 +52,7 @@ if [ ${HOST_NAME} == "k8s-m1" ]; then
   # sudo chmod 700 /etc/hosts
   set_hosts
   sudo cp ~/hosts /etc/
-  sudo ansible-playbook -e network_interface=eth1 site.yaml -i hosts.ini
+  sudo ansible-playbook -vvvv -e network_interface=eth1 site.yaml -i hosts.ini
 else
   # sudo su
   # sudo chmod 700 /etc/hosts 
